@@ -2,6 +2,8 @@
 
 export default function AboutUs() {
     return (
-        <h1>this is the about us page</h1>
+        <section id="aboutus" className="h-screen">
+            <h1>this is the about us page</h1>
+        </section>
     );
   }

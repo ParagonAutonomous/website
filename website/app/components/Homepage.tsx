@@ -2,6 +2,8 @@
 
 export default function Homepage() {
     return (
-        <h1>this is homepage</h1>
+        <section id="home"className="h-screen">
+            <h1>this is the homepage</h1>
+        </section>
     );
   }
