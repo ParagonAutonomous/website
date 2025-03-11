@@ -5,6 +5,8 @@ import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
 import Partnerships from "./components/Partnerships";
 import Products from "./components/Products";
+import EndPage from "./components/EndPage";
+import FlightPath from "./components/FlightPath";
 
 export default function Home() {
   return (
@@ -12,8 +14,10 @@ export default function Home() {
       <Navbar/>
       <Homepage />
       <AboutUs />
+      <FlightPath />
       <Partnerships />
       <Products />
+      <EndPage />
       <Footer />
     </main>
   );

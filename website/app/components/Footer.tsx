@@ -3,28 +3,31 @@
 export default function Footer() {
     return (
         <footer className="bg-gray-800 p-10 z-50 bg-opacity-40">
-            <p>PARAGON AUTONOMOUS</p>
+            <p className="text-[#80B918]">PARAGON AUTONOMOUS</p>
             <ul className="flex justify-center gap-10">
-                <ul>ABOUT
-                    <li>item1</li>
-                    <li>item2</li>
-                    <li>item3</li>
-                </ul>
-                <ul>PRODUCTS
-                    <li>item1</li>
-                    <li>item2</li>
-                    <li>item3</li>
-                </ul>
-                <ul>PARTNERS
-                    <li>item1</li>
-                    <li>item2</li>
-                    <li>item3</li>
-                </ul>
-                <ul>CONTACT
-                    <li>item1</li>
-                    <li>item2</li>
-                    <li>item3</li>
-                </ul>
+                <li>ABOUT
+                    <ul className="text-sm">
+                    <li>VISION</li>
+                    <li>IMPACT</li>
+                    <li>MISSION</li>
+                    <li>WHAT WE DO</li>
+                    </ul>
+                </li>
+                <li>PRODUCTS
+                    <ul>
+                    <li>SCOUTER PRO</li>
+                    <li>PAYLOAD PRO</li>
+                    </ul>
+                </li>
+                <li>PARTNERS</li>
+                <li>CONTACT
+                    <ul>
+                    <li>X</li>
+                    <li>EMAIL</li>
+                    <li>LINKEDIN</li>
+                    <li>INSTAGRAM</li>
+                    </ul>
+                </li>
             </ul>
         </footer>
     );
