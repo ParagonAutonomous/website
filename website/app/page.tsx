@@ -13,8 +13,22 @@ export default function Home() {
     <main>
       <Navbar/>
       <Homepage />
+      <Image
+        src="/images/waveup.svg"
+        alt="wave up"
+        layout="responsive"
+        width={50}
+        height={10}
+        />
       <AboutUs />
       <FlightPath />
+      <Image
+        src="/images/wavedown.svg"
+        alt="wave down"
+        layout="responsive"
+        width={50}
+        height={10}
+        />
       <Partnerships />
       <Products />
       <EndPage />

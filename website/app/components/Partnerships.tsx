@@ -8,7 +8,7 @@ export default function Partnerships() {
             </div>
             <h2 className="font-bold text-large m-5">WHO WE WORK WITH </h2>
             <div className="grid grid-cols-3 gap-4 m-5">
-                <div className="bg-[#1E1E1E] rounded-lg p-3">
+                <div className="responsive bg-[#1E1E1E] rounded-lg p-3">
                     <h2 className="font-semibold text-[#FF4800] p-2">Fire Departments & First Responders</h2>
                     <p>Our autonomous drone network provides real-time situational awareness and helps fire crews respond faster, safer, and smarter</p>
                 </div>

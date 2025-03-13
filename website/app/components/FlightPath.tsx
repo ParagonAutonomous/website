@@ -1,8 +1,8 @@
 export default function FlightPath() {
     return (
-        <section id="flightpath" className="h-screen text-center">
-            <h1 className="font-bold  text-2xl m-10">OUR FLIGHT PATH</h1>
-            <div className="grid grid-rows-3 text-[#000000] m-10">
+        <section id="flightpath" className=" text-center bg-[#FFFFFF]">
+            <h1 className="font-bold  text-2xl text-[#000000]">OUR FLIGHT PATH</h1>
+            <div className="grid grid-rows-3 text-[#000000] m-5 mb-0">
                 <div className="grid grid-cols-2 gap-3 m-2">
                 <div className="bg-[#C0C0C0] rounded-3xl p-3">
                     <h3 className="font-bold text-lg text-[#FF4800]">How does Paragon detect fires?</h3>
