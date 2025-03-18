@@ -21,7 +21,7 @@ export default function Home() {
         height={10}
         />
       <AboutUs />
-      <FlightPath />
+      {/* <FlightPath /> */}
       <Image
         src="/images/wavedown.svg"
         alt="wave down"
