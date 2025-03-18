@@ -1,14 +1,13 @@
 import Image from 'next/image';
 import hardware from '../../public/images/aboutusimg.jpeg'
-import ContactUs from './ContactUs';
 
 export default function AboutUs() {
   return (
-    <div id="full-container" className="bg-white select-none font-inter text-black border-2 border-red-500">
+    <div id="full-container" className="bg-white select-none font-inter text-black p-2">
       <h1 className="text-center text-7xl pb-20 pt-10 font-black">About Paragon</h1>
       
       <div className="flex items-start">
-        <div className="border-2 border-green-500 ml-[10%] w-[50%] p-2 relative" id="info">
+        <div className="ml-[10%] w-[50%] p-2 relative" id="info">
           <p className="text-3xl">
             At <span className="text-[#FF4800] font-bold">Paragon Autonomous</span>, we empower communities with cutting-edge drone technology designed to detect and suppress wildfires before they escalate. Our mission is to aid first responders by protecting lives, homes, and wildlife.
           </p>
@@ -29,7 +28,7 @@ export default function AboutUs() {
         />
       </div>
       
-      <div id="flight-path" className="flex flex-wrap justify-center select-none border-2 border-purple-500 mt-4 text-center p-6">
+      <div id="flight-path" className="flex flex-wrap justify-center select-none mt-4 text-center p-6">
   <h1 className="text-6xl p-6 w-full font-black">OUR FLIGHT PATH</h1>
 
   <div className="group rounded-3xl w-[50%] min-w-[300px] p-6 bg-[#D9D9D9] transition-all duration-300 hover:bg-gray-800 m-4 drop-shadow-[0_10px_15px_rgba(0,0,0,0.7)] hover:drop-shadow-[0_15px_20px_rgba(0,0,0,0.9)]">

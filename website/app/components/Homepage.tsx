@@ -6,7 +6,7 @@ export default function Homepage() {
             {/* First Section - Full Screen Background */}
             <section 
                 id="home" 
-                className="h-screen bg-[url('/img/front-image.jpeg')] bg-no-repeat bg-center bg-black/50 bg-blend-overlay bg-cover flex items-center justify-center text-white"
+                className="h-screen bg-[url('/images/front-image.jpeg')] bg-no-repeat bg-center bg-black/50 bg-blend-overlay bg-cover flex items-center justify-center text-white"
             >
                 <h1 className="text-4xl font-bold text-center">A Safer World, Powered By Paragon</h1>
             </section>
@@ -16,7 +16,7 @@ export default function Homepage() {
                 <div className="w-1/2 flex justify-center">
                     <div className="relative h-48 w-48 md:h-96 md:w-96">
                         <Image
-                            src="/img/front-page-fire.png"
+                            src="/images/front-page-fire.png"
                             alt="Front page fire"
                             layout="fill"
                             objectFit="cover"
