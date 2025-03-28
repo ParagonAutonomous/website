@@ -4,7 +4,7 @@ import payloadimg from '../../public/images/payload.png'
 import Image from 'next/image';
 export default function Products() {
     return (
-        <div id="products" className="h-screen">
+        <div id="products" className="h-auto">
             <h1 className="font-bold  text-2xl m-10 pt-20 text-center">OUR PRODUCTS</h1>
             <div className="grid grid-cols-2">
             <Image src={scouterimg} alt='COMING SOON' />
