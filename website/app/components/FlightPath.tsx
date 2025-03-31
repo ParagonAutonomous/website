@@ -19,7 +19,7 @@ export default function FlightPath() {
                 </div>
                 <div className="grid grid-cols-2 gap-4 m-2">
                     <div className="bg-[#C0C0C0] rounded-3xl p-3">
-                        <h3 className="font-bold text-lg text-[#FF4800]">What's next?</h3>
+                        <h3 className="font-bold text-lg text-[#FF4800]">What&aposs next?</h3>
                         <p>We are expanding partnerships with fire departments, environmental agencies, and emergency teams to scale autonomous wildfire prevention. With continued innovation, we aim to make AI-driven fire detection and suppression the industry standard, protecting more communities and ecosystems</p>
                     </div>
                     <div className="bg-[#C0C0C0] rounded-3xl p-3">

@@ -59,7 +59,7 @@ export default function AboutUs() {
   </div>
 
   <div className="group rounded-3xl w-[45%] min-w-[300px] p-6 bg-[#D9D9D9] transition-colors duration-300 hover:bg-gray-800 m-4 drop-shadow-[0_10px_15px_rgba(0,0,0,0.7)] hover:drop-shadow-[0_15px_20px_rgba(0,0,0,0.9)]">
-    <h1 className="text-[#FF4800] text-5xl"><b>What's Next?</b></h1>
+    <h1 className="text-[#FF4800] text-5xl"><b>What&aposs Next?</b></h1>
     <br />
     <p className="text-2xl transition-colors duration-300 group-hover:text-white">
     We are expanding partnerships with fire departments, environmental agencies, and emergency teams to scale autonomous wildfire prevention. With continued innovation, we aim to make AI-driven fire detection and suppression the industry standard, protecting more communities and ecosystems.</p>

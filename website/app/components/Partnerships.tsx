@@ -21,7 +21,7 @@ export default function Partnerships() {
                     <p>We Collaborate with fire safety leaders, AI developers, and research institutions to advance wildfire detection technology and optimize fire suppression methods</p>
                 </div>
             </div>
-            <p className="text">"Drone have given us an aerial perspective we never had before- allowing for early detection and smarter resource allocation." - Wildfire Conservation Specialist, Arizona</p>
+            <p className="text">&quotDrone have given us an aerial perspective we never had before- allowing for early detection and smarter resource allocation.&quot - Wildfire Conservation Specialist, Arizona</p>
             <p>Partner with us button</p>
         </section>
     );
