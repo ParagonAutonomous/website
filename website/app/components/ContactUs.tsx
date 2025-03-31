@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect, ChangeEvent, FormEvent } from 'react';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 type FormData = {
   name: string;
@@ -36,25 +36,25 @@ export default function ContactUs({ onClose, widthClass = 'max-w-2xl' }: Contact
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    try {
-      await emailjs.send(
-        'your_service_id',
-        'your_template_id',
-        {
-          name: formData.name,
-          to_email: 'example@paragonautonomous.com',
-          from_email: formData.email,
-          message: formData.message,
-          category: formData.category,
-        },
-        'your_public_key'
-      );
-      alert('Message sent successfully!');
-      setFormData({ name: '', email: '', message: '', category: 'Website Error' });
-    } catch (error) {
-      console.error('Error sending email:', error);
-      alert('Failed to send message.');
-    }
+    // try {
+    //   await emailjs.send(
+    //     'your_service_id',
+    //     'your_template_id',
+    //     {
+    //       name: formData.name,
+    //       to_email: 'example@paragonautonomous.com',
+    //       from_email: formData.email,
+    //       message: formData.message,
+    //       category: formData.category,
+    //     },
+    //     'your_public_key'
+    //   );
+    //   alert('Message sent successfully!');
+    //   setFormData({ name: '', email: '', message: '', category: 'Website Error' });
+    // } catch (error) {
+    //   console.error('Error sending email:', error);
+    //   alert('Failed to send message.');
+    // }
   };
 
   return (
