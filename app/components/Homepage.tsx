@@ -12,6 +12,7 @@ export default function Homepage() {
           src="/images/front-image.jpeg"
           alt="Front image"
           fill
+          unoptimized
           className="absolute inset-0 object-cover"
         />
         <div className="absolute inset-0 bg-black/50 mix-blend-overlay" />
@@ -28,6 +29,7 @@ export default function Homepage() {
               src="/images/front-page-fire.png"
               alt="Front page fire"
               fill
+              unoptimized
               className="rounded drop-shadow-[0_0_20px_rgba(191,110,0,0.4)] object-cover"
             />
           </div>

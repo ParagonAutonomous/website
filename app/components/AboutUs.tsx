@@ -24,6 +24,7 @@ export default function AboutUs() {
         src="/images/aboutusimg.jpeg"
         alt="Nada"
         fill
+        unoptimized
         className="object-cover rounded-3xl drop-shadow-[10px_10px_8px_#6ea0a1]"
       />
     </div>
