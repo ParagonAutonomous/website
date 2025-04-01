@@ -4,13 +4,15 @@ export default function Homepage() {
   return (
     <main>
       {/* First Section - Full Screen Background */}
-      <section id="home" className="relative h-screen flex items-center justify-center text-white">
+      <section
+        id="home"
+        className="relative h-screen flex items-center justify-center text-white"
+      >
         <Image
           src="/images/front-image.jpeg"
           alt="Front image"
-          layout="fill"
-          objectFit="cover"
-          className="absolute inset-0"
+          fill
+          className="absolute inset-0 object-cover"
         />
         <div className="absolute inset-0 bg-black/50 mix-blend-overlay" />
         <h1 className="relative z-10 text-4xl font-bold text-center">
@@ -25,9 +27,8 @@ export default function Homepage() {
             <Image
               src="/images/front-page-fire.png"
               alt="Front page fire"
-              layout="fill"
-              objectFit="cover"
-              className="rounded drop-shadow-[0_0_20px_rgba(191,110,0,0.4)]"
+              fill
+              className="rounded drop-shadow-[0_0_20px_rgba(191,110,0,0.4)] object-cover"
             />
           </div>
         </div>

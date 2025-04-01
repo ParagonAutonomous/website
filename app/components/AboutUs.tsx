@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import hardware from '../../public/images/aboutusimg.jpeg'
 
 export default function AboutUs() {
   return (
@@ -20,12 +19,15 @@ export default function AboutUs() {
           <button className="bg-white text-gray-500 rounded-md px-6 py-2 mt-2 font-inter text-3xl font-black border-4 border-[#80B918] transition-colors duration-300  hover:bg-[#80B918] hover:text-black hover:border-transparent">Get in Touch</button>
           </div>
         </div>
-      
-        <Image
-          src={hardware}
-          className="ml-16 w-[25%] h-auto rounded-3xl drop-shadow-[10px_10px_8px_#6ea0a1]"
-          alt="Nada"
-        />
+        <div className="ml-16 relative w-[30vw] h-[35vw]">
+      <Image
+        src="/images/aboutusimg.jpeg"
+        alt="Nada"
+        fill
+        className="object-cover rounded-3xl drop-shadow-[10px_10px_8px_#6ea0a1]"
+      />
+    </div>
+
       </div>
       
       <div id="flight-path" className="flex flex-wrap justify-center select-none mt-4 text-center p-6">
