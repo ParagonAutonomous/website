@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export default function Homepage() {
   return (
@@ -8,11 +8,9 @@ export default function Homepage() {
         id="home"
         className="relative h-screen flex items-center justify-center text-white"
       >
-        <Image
+        <img
           src="/images/front-image.jpeg"
           alt="Front image"
-          fill
-          unoptimized
           className="absolute inset-0 object-cover"
         />
         <div className="absolute inset-0 bg-black/50 mix-blend-overlay" />
@@ -25,11 +23,9 @@ export default function Homepage() {
       <section className="h-screen flex items-center px-10">
         <div className="w-1/2 flex justify-center">
           <div className="relative h-48 w-48 md:h-96 md:w-96">
-            <Image
+            <img
               src="/images/front-page-fire.png"
               alt="Front page fire"
-              fill
-              unoptimized
               className="rounded drop-shadow-[0_0_20px_rgba(191,110,0,0.4)] object-cover"
             />
           </div>

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export default function AboutUs() {
   return (
@@ -20,11 +20,9 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="ml-16 relative w-[30vw] h-[35vw]">
-      <Image
+      <img
         src="/images/aboutusimg.jpeg"
         alt="Nada"
-        fill
-        unoptimized
         className="object-cover rounded-3xl drop-shadow-[10px_10px_8px_#6ea0a1]"
       />
     </div>
