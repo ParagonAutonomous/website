@@ -19,9 +19,9 @@ export default function AboutUs() {
           <button className="bg-white text-gray-500 rounded-md px-6 py-2 mt-2 font-inter text-3xl font-black border-4 border-[#80B918] transition-colors duration-300  hover:bg-[#80B918] hover:text-black hover:border-transparent">Get in Touch</button>
           </div>
         </div>
-        <div className="ml-16 relative w-[30vw] h-[35vw]">
+        <div className="ml-16 relative w-[20%]">
       <img
-        src="/images/aboutusimg.jpeg"
+        src="images/aboutusimg.jpeg"
         alt="Nada"
         className="object-cover rounded-3xl drop-shadow-[10px_10px_8px_#6ea0a1]"
       />
