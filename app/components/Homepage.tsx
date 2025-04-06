@@ -1,16 +1,16 @@
-import Image from 'next/image';
-
+// import Image from 'next/image';
 export default function Homepage() {
   return (
     <main>
       {/* First Section - Full Screen Background */}
-      <section id="home" className="relative h-screen flex items-center justify-center text-white">
-        <Image
-          src="/images/front-image.jpeg"
+      <section
+        id="home"
+        className="relative h-screen flex items-center justify-center text-white"
+      >
+        <img
+          src='./images/front-image.jpeg'
           alt="Front image"
-          layout="fill"
-          objectFit="cover"
-          className="absolute inset-0"
+          className="absolute inset-0 object-cover"
         />
         <div className="absolute inset-0 bg-black/50 mix-blend-overlay" />
         <h1 className="relative z-10 text-4xl font-bold text-center">
@@ -22,12 +22,10 @@ export default function Homepage() {
       <section className="h-screen flex items-center px-10">
         <div className="w-1/2 flex justify-center">
           <div className="relative h-48 w-48 md:h-96 md:w-96">
-            <Image
-              src="/images/front-page-fire.png"
+            <img
+              src="images/front-page-fire.png"
               alt="Front page fire"
-              layout="fill"
-              objectFit="cover"
-              className="rounded drop-shadow-[0_0_20px_rgba(191,110,0,0.4)]"
+              className="rounded drop-shadow-[0_0_20px_rgba(191,110,0,0.4)] object-cover"
             />
           </div>
         </div>

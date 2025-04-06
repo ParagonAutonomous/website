@@ -14,16 +14,16 @@ export default function Home() {
       <Navbar/>
       <Homepage />
       <Image
-        src="/images/waveup.svg"
+        src="images/waveup.svg"
         alt="wave up"
         layout="responsive"
         width={50}
         height={10}
         />
       <AboutUs />
-      {/* <FlightPath /> */}
+      {/* NEXTJS AUTOMATICALLY APPENDS /PUBLIC/ in front of all image paths, evidently*/}
       <Image
-        src="/images/wavedown.svg"
+        src="images/wavedown.svg"
         alt="wave down"
         layout="responsive"
         width={50}
