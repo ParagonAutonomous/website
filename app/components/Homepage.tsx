@@ -18,7 +18,7 @@ export default function Homepage() {
           <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/70 to-transparent pointer-events-none" />
         </div>
         
-        <h1 className="relative z-10 text-7xl font-bold text-center px-4">
+        <h1 className="relative z-10 text-7xl font-bold text-center px-4 font-inter">
           A Safer World, Powered By Paragon
         </h1>
       </section>

@@ -61,7 +61,7 @@ export default function Home() {
           <li className="ml-8">
             <button 
               onClick={() => setShowContact(true)}
-              className="px-4 py-2 rounded-lg bg-gradient-to-r from-[#FFF200] to-[#FF4800] hover:opacity-90 transition-opacity"
+              className="px-4 py-2 rounded-lg bg-gradient-to-r from-[#FFF200] to-[#FF4800] text-black hover:opacity-90 transition-opacity"
             >
               Get In Touch
             </button>
@@ -89,10 +89,6 @@ export default function Home() {
         className="w-full h-auto"
         height={10}
       />
-
-      <section ref={partnershipsRef} className="scroll-mt-24">
-        <Partnerships />
-      </section>
 
       <section ref={productsRef} className="scroll-mt-24">
         <Products />

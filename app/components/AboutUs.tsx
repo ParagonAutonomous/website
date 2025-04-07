@@ -2,17 +2,17 @@
 
 export default function AboutUs() {
   return (
-    <div id="full-container" className="bg-white select-none font-inter text-black p-2">
-      <h1 className="text-center text-7xl pb-20 pt-10 font-black">About Paragon</h1>
+    <div id="full-container" className="bg-white select-none font-inter text-black p-2" >
+      <h1 className="text-center text-6xl pb-20 pt-10 font-black">ABOUT PARAGON</h1>
       
       <div className="flex items-start">
         <div className="ml-[10%] w-[50%] p-2 relative" id="info">
           <p className="text-3xl">
-            At <span className="text-[#FF4800] font-bold">Paragon Autonomous</span>, we empower communities with cutting-edge drone technology designed to detect and suppress wildfires before they escalate. Our mission is to aid first responders by protecting lives, homes, and wildlife.
+            At <span className="text-[#FF4800] font-bold ">Paragon Autonomous</span>, we empower communities with cutting-edge drone technology designed to detect and suppress wildfires before they escalate. Our mission is to aid first responders by protecting lives, homes, and wildlife.
           </p>
           <h3 className="text-left text-5xl pt-10 pb-10 font-inter font-black">OUR VISION</h3>
           <p className="text-3xl">We envision a world where destructive wildfires are detected and stopped before they start.</p>
-          <p className="text-3xl">Driven by our values of innovation, collaboration, and environmental protection, we’re redefining how the world fights wildfires.</p>
+          <p className="text-3xl">Driven by our values of innovation, collaboration, and environmental protection, we're redefining how the world fights wildfires.</p>
           <div className="flex justify-between">
           <button className="bg-[#80B918] text-black rounded-md px-6 py-2 mt-2 font-inter text-3xl font-black border-4 border-transparent transition-colors duration-300  hover:bg-white hover:text-gray-500 hover:border-[#80B918]">Learn More</button>
 
@@ -60,7 +60,7 @@ export default function AboutUs() {
   </div>
 
   <div className="group rounded-3xl w-[45%] min-w-[300px] p-6 bg-[#D9D9D9] transition-colors duration-300 hover:bg-gray-800 m-4 drop-shadow-[0_10px_15px_rgba(0,0,0,0.7)] hover:drop-shadow-[0_15px_20px_rgba(0,0,0,0.9)]">
-    <h1 className="text-[#FF4800] text-5xl"><b>What&aposs Next?</b></h1>
+    <h1 className="text-[#FF4800] text-5xl"><b>What's Next?</b></h1>
     <br />
     <p className="text-2xl transition-colors duration-300 group-hover:text-white">
     We are expanding partnerships with fire departments, environmental agencies, and emergency teams to scale autonomous wildfire prevention. With continued innovation, we aim to make AI-driven fire detection and suppression the industry standard, protecting more communities and ecosystems.</p>
