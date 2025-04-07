@@ -7,13 +7,18 @@ export default function Homepage() {
         id="home"
         className="relative h-screen flex items-center justify-center text-white"
       >
-        <img
-          src='./images/front-image.jpeg'
-          alt="Front image"
-          className="absolute inset-0 object-cover"
-        />
-        <div className="absolute inset-0 bg-black/50 mix-blend-overlay" />
-        <h1 className="relative z-10 text-4xl font-bold text-center">
+        {/* Image container with gradient overlay */}
+        <div className="absolute inset-0 w-full h-full">
+          <img
+            src='/images/front-image.jpeg'
+            alt="Front image"
+            className="w-full h-full object-cover"
+          />
+          {/* Bottom-aligned gradient */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/70 to-transparent pointer-events-none" />
+        </div>
+        
+        <h1 className="relative z-10 text-7xl font-bold text-center px-4">
           A Safer World, Powered By Paragon
         </h1>
       </section>
@@ -21,7 +26,7 @@ export default function Homepage() {
       {/* Second Section - Scroll Down with Image on the Left */}
       <section className="h-screen flex items-center px-10">
         <div className="w-1/2 flex justify-center">
-          <div className="relative h-48 w-48 md:h-96 md:w-96">
+          <div className="relative w-[90%]">
             <img
               src="images/front-page-fire.png"
               alt="Front page fire"
