@@ -24,7 +24,7 @@ export default function Home() {
     <main>
       {/* Navbar integrated directly */}
       <nav className="fixed top-0 left-0 right-0 bg-gray-800 bg-opacity-40 p-4 z-50 backdrop-blur-sm">
-        <ul className="flex font-bold justify-center text-lg gap-10 items-center">
+        <ul className="flex font-bold justify-center text-lg gap-10 items-center mx-auto">
           <li className="text-[#80B918] text-2xl mr-8">PARAGON</li>
           <li>
             <button 
@@ -44,10 +44,10 @@ export default function Home() {
           </li>
           <li>
             <button 
-              onClick={() => scrollToSection(partnershipsRef)}
+              onClick={() => scrollToSection(productsRef)}
               className="hover:text-gray-300 transition-colors"
             >
-              Partnerships
+              Products
             </button>
           </li>
           <li>
@@ -55,7 +55,7 @@ export default function Home() {
               onClick={() => scrollToSection(productsRef)}
               className="hover:text-gray-300 transition-colors"
             >
-              Products
+              Newsletter
             </button>
           </li>
           <li className="ml-8">
